@@ -17,7 +17,7 @@ const prompt = promptSync()
  * @returns {mumber} userLength of the wood
  */
 function BoardFoot(userHeight: number, userWidth: number): number {
-  //Process
+  // Process
   const BOARD_FOOT = 144
   const userLength = BOARD_FOOT / (userWidth * userHeight)
   return userLength
@@ -26,7 +26,7 @@ function BoardFoot(userHeight: number, userWidth: number): number {
 console.log('This program calculates the required length for a board foot.')
 
 try {
-  //Input and Output
+  // Input and Output
   const valueInput = prompt('Enter in a width: ')
   const userWidth = parseFloat(valueInput)
   const valueInputTwo = prompt('Enter a height: ')
